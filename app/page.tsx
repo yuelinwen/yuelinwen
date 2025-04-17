@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { prefix } from "../util/prefix";
 
 export default function Home() {
 
@@ -8,7 +9,7 @@ export default function Home() {
     `what is my bath path?
         <Image
           className="dark:invert"
-          src="/next.svg"
+          src={`${prefix}/next.svg`}
           alt="Next.js logo"
           width={180}
           height={38}
