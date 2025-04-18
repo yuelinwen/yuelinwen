@@ -18,7 +18,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b bg-background/75 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="fixed inset-x-0 top-0 z-50 pr-80 border-b bg-background/75 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
         {/* logo/title */}
         <Link
