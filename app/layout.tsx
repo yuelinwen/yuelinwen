@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Providers from "@/components/providers";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Yuelin Wen",
@@ -15,9 +18,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className="antialiased"
+        className={cn('flex min-h-screen flex-col antialiased')}
       >
-        <Providers>{children}</Providers>
+        <Providers>
+          <Header />
+          {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   );

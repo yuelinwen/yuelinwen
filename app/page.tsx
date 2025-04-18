@@ -1,4 +1,4 @@
-import { prefix } from "../util/prefix";
+// import { prefix } from "../util/prefix";
 
 export default function Home() {
 
