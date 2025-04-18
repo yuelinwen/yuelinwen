@@ -25,7 +25,7 @@ export default function RootLayout({
           <div className="flex flex-col md:flex-row w-full min-h-screen text-muted-foreground">
             <Sidebar />
 
-            <main className="flex-1 md:ml-[25%] p-6 overflow-y-auto">
+            <main className="flex-1 md:ml-[25%] md:ps-6 md:pe-96 md:py-6 p-6 overflow-y-auto">
               <div className="space-y-4">{children}</div>
             </main>
           </div>
