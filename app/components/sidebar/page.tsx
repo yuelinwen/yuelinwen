@@ -10,7 +10,7 @@ const Sidebar = () => {
                 <AvatarFallback>Yuelin Wen</AvatarFallback>
             </Avatar>
 
-            <div className="text-lg font-semibold mb-4 md:pl-28">Yuelin (Lucas) Wen</div>
+            <div className="text-lg font-semibold mb-4 md:pl-28">Yuelin Wen</div>
             <div className='md:pl-28'>
                 <p>he/him</p>
                 Software engineering | Networking | IT | Computer | McMaster university Alumni

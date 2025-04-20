@@ -4,7 +4,7 @@ export default function Home() {
     <div className="flex flex-col gap-20">
       <div className="flex flex-col gap-3">
         <h1 className="text-2xl font-semibold">About me</h1>
-        <p>Hi, im lucas, i am a software developer based in Toronto, Canada.</p>
+        <p>Hi, im Yuelin, i am a software developer based in Toronto, Canada.</p>
       </div>
 
       <div className="flex flex-col gap-3">

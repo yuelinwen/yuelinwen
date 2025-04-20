@@ -25,7 +25,7 @@ export default function Header() {
           href="/"
           className="text-lg font-bold border-b-2 border-transparent hover:border-gray-300"
         >
-          Yuelin (Lucas) Wen
+          Yuelin Wen
         </Link>
 
         {/* desktop nav */}
