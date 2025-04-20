@@ -3,7 +3,7 @@ import React from 'react';
 const Page = () => {
     return (
         <div>
-            Blog
+            To be continue...
         </div>
     );
 }
