@@ -46,7 +46,7 @@ export default function Home() {
           <li>Cloud computing: CI/CD, AWS, Docker</li>
           <li>Operating system: Linux, Windows, MacOS</li>
           <li>Software development: Nodejs, Reactjs, Nextjs, Unity, RestAPI</li>
-          <li>Others: Machine learning, Neuron network, network security, git</li>
+          <li>Others: Machine learning, Neuron network, network, git</li>
         </ul>
       </div>
 
