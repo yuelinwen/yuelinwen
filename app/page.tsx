@@ -16,7 +16,7 @@ export default function Home() {
           <h3 className="text-lg font-semibold">McMaster University - Hamilton, ON, Canada</h3>
           <p className="italic">Bachelor of Technology in Software Engineering </p>
           <ul className="gap-1">
-            <li>Subject studied: Software architecture, AI/ML neuron network, Real-time system Mathematics, Data structure & algorithm, Network security, Operating system, Unity game development</li>
+            <li>Subject studied: Software architecture, AI/ML neural network, Real-time system Mathematics, Data structure & algorithm, Network security, Operating system, Unity game development</li>
           </ul>
         </div>
         <div>
@@ -35,10 +35,9 @@ export default function Home() {
         <h1 className="text-2xl font-semibold">Research Interests</h1>
         <div>
           <h3 className="text-lg font-semibold">Artificial intelligence and real world application</h3>
-          <p>I am particularly interested in the integration of AI (especially AGI) with embedded systems in real world application.</p>
+          <p>I am particularly interested in the integration of AI (especially AGI) with embedded systems in real-world applications.</p>
           <p>
-            During university, I took courses in AI, neuron networks and real-time systems, which deeply inspired me for intelligent system design.
-            I believe that AGI, when combined with embedded systems, has the potential to address a wide range of complex challenges in the real world—offering smart, adaptive solutions to problems that require both decision-making and real-time responsiveness. This intersection of AI and real world application system is where I hope to contribute and innovate.</p>
+          During university, I took courses in AI, neural networks and real-time systems, which deeply inspired me for intelligent system design. I believe that AGI, when combined with embedded systems, has the potential to address a wide range of complex challenges in the real world, offering smart, adaptive solutions to problems that require both decision-making and real-time responsiveness. This intersection of AI and real-world application systems is where I hope to contribute and innovate.</p>
         </div>
       </div>
 
@@ -50,7 +49,7 @@ export default function Home() {
           <li>Cloud computing: CI/CD, AWS, Docker</li>
           <li>Operating system: Linux, Windows, MacOS</li>
           <li>Software development: Nodejs, Reactjs, Nextjs, Unity, RestAPI</li>
-          <li>Others: Machine learning, Neuron network, network, git</li>
+          <li>Others: Machine learning, Neural network, network, git</li>
         </ul>
       </div>
 
