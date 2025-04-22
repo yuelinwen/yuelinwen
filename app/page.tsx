@@ -5,7 +5,7 @@ export default function Home() {
       <div className="flex flex-col gap-3">
         <h1 className="text-2xl font-semibold">About me</h1>
         <p>Hi, I'm Yuelin. I'm a software developer based in Toronto, Canada.</p>
-        <p>I recently graduated from a software engineering program at McMaster University. I am specialized in using modern technologies to build websites/software to solve real-world problems, I enjoy creating things that are simple, useful, and meaningful. I'm always curious to learn new skills, whether it's related to technology or just life in general.
+        <p>I recently graduated from a software engineering program at McMaster University. I am specialized in using modern technologies to build application to solve real-world problems, I enjoy creating things that are simple, useful, and meaningful. I'm always curious to learn new skills, whether it's related to technology or just life in general.
         </p>
         <p>Outside of work, I love music, enjoy reading, exploring nature, and having good conversations with people. I value kindness, growth, and staying open-minded.</p>
       </div>
@@ -35,9 +35,10 @@ export default function Home() {
         <h1 className="text-2xl font-semibold">Research Interests</h1>
         <div>
           <h3 className="text-lg font-semibold">Artificial intelligence and real world application</h3>
-          <p>I am particularly interested in the integration of AI (especially AGI) with embedded systems in real world application.
-            During university, I took courses in AI and real-time systems, which deeply inspired me.
-            I believe the integration of AGI with embedded systems will be in high demand for real-world applications—such as intelligent delivery systems that require both smart decision-making and real-time responsiveness. This intersection of AI and system-level efficiency is where I hope to contribute and innovate. </p>
+          <p>I am particularly interested in the integration of AI (especially AGI) with embedded systems in real world application.</p>
+          <p>
+            During university, I took courses in AI, neuron networks and real-time systems, which deeply inspired me for intelligent system design.
+            I believe that AGI, when combined with embedded systems, has the potential to address a wide range of complex challenges in the real world—offering smart, adaptive solutions to problems that require both decision-making and real-time responsiveness. This intersection of AI and real world application system is where I hope to contribute and innovate.</p>
         </div>
       </div>
 
