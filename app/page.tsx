@@ -4,7 +4,10 @@ export default function Home() {
     <div className="flex flex-col gap-20">
       <div className="flex flex-col gap-3">
         <h1 className="text-2xl font-semibold">About me</h1>
-        <p>Hi, im Yuelin, i am a software developer based in Toronto, Canada.</p>
+        <p>Hi, I'm Yuelin. I'm a software developer based in Toronto, Canada.</p>
+        <p>I recently graduated from a software engineering program at McMaster University. I am specialized in using modern technologies to build websites/software to solve real-world problems, I enjoy creating things that are simple, useful, and meaningful. I'm always curious to learn new skills, whether it's related to technology or just life in general.
+        </p>
+        <p>Outside of work, I love music, enjoy reading, exploring nature, and having good conversations with people. I value kindness, growth, and staying open-minded.</p>
       </div>
 
       <div className="flex flex-col gap-3">
