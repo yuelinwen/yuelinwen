@@ -8,7 +8,7 @@ const Projects = () => {
         <div className="flex flex-col gap-20">
             <div className="flex flex-col gap-3">
                 <h3 className="text-lg font-semibold">CloudVault </h3>
-                <p className="italic">Nodeje, Reactjs, AWS S3, AWS DynamoDB, AWS Cognito</p>
+                <p className="italic">Nodejs, Reactjs, AWS S3, AWS DynamoDB, AWS Cognito</p>
                 <ul className="gap-1">
                     <li>Github link: <a className='underline' href="https://github.com/yuelinwen/CloudVault">https://github.com/yuelinwen/CloudVault</a></li>
                     <li>Demo: <a className='underline' href="https://www.youtube.com/watch?v=9ruAMwIYXI0">Video</a></li>
