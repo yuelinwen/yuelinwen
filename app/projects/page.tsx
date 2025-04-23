@@ -26,7 +26,7 @@ const Projects = () => {
 
             <div className="flex flex-col gap-3">
                 <h3 className="text-lg font-semibold">Facial expression recognition</h3>
-                <p className="italic">AI, Image recognition, CNN, MLP, Nueron Network</p>
+                <p className="italic">AI, Image recognition, CNN, MLP, Neural Network</p>
                 <ul className="gap-1">
                     <li>Github link: <a className='underline' href="https://github.com/yuelinwen/facial-expression-recognition">https://github.com/yuelinwen/facial-expression-recognition</a></li>
                     <li>Facial expression recognition is a type of image detection system used to analyze human emotions by classifying facial expressions through learning in deep neural networks. This system uses Convolutional Neural Networks (CNNs) to train the model using pre-collected facial image datasets, leveraging deep learning to extract facial features and accurately identify human expressions.</li>
@@ -55,7 +55,7 @@ const Projects = () => {
 
             <div className="flex flex-col gap-3">
                 <h3 className="text-lg font-semibold">New York restaurant browser</h3>
-                <p className="italic">Nodejs, Reactjs, MongoDB, Leafmap API</p>
+                <p className="italic">Nodejs, EJS, MongoDB, Leafmap API</p>
                 <ul className="gap-1">
                     <li>Github link: <a className='underline' href="https://github.com/yuelinwen/yep-restaurant-recommender">https://github.com/yuelinwen/yep-restaurant-recommender</a></li>
                     <li>Demo: <a className='underline' href="https://yep-restaurant-recommender.vercel.app/restaurants?page=1&perPage=10&borough=">Live</a></li>
