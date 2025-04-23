@@ -24,7 +24,7 @@ export default function Home() {
           <p className="italic">Advanced Diploma in Computer Programming & Analysis </p>
           <ul className="gap-1">
             {/* <li>Grading GPA: 3.8/4</li> */}
-            <li>Subject studied: C++, Java, Web programming, Cloud programming, Database, Linux System programming, IOS/Andriod development</li>
+            <li>Subject studied: C++, Java, Web programming, Cloud programming, Database, Linux System programming, IOS/Android development</li>
             <li>Honors: President Honor list in Fall 2020, Winter 2021, Summer 2021</li>
             <li>School Activity: Develop health montior app in the 2021 Digital Health Hackathon</li>
           </ul>
