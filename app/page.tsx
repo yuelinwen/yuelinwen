@@ -35,9 +35,9 @@ export default function Home() {
         <h1 className="text-2xl font-semibold">Research Interests</h1>
         <div>
           <h3 className="text-lg font-semibold">Artificial intelligence and real world application</h3>
-          <p>I am particularly interested in the integration of AI (especially AGI) with embedded systems in real-world applications.</p>
+          <p>I am particularly interested in the application of artificial intelligence techniques in embedded systems for real-world solutions.</p>
           <p>
-          During university, I took courses in AI, neural networks and real-time systems, which deeply inspired me for intelligent system design. I believe that AGI, when combined with embedded systems, has the potential to address a wide range of complex challenges in the real world, offering smart, adaptive solutions to problems that require both decision-making and real-time responsiveness. This intersection of AI and real-world application systems is where I hope to contribute and innovate.</p>
+          During university, I took courses in AI, neural networks, and real-time systems, which strengthened my passion for intelligent system design. I believe that by combining embedded systems with AI methods, we can create smart, adaptive technologies that operate efficiently under real-world constraints, such as limited computing power, timing requirements, and resource optimization. My goal is to contribute to the development of practical, intelligent embedded systems that enhance everyday technologies in fields such as robotics, autonomous vehicles, and IoT devices.</p>
         </div>
       </div>
 
