@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-3">
+      {/* <div className="flex flex-col gap-3">
         <h1 className="text-2xl font-semibold">Research Interests</h1>
         <div className="flex flex-col gap-3">
           <li>Computer engineering</li>
@@ -39,12 +39,11 @@ export default function Home() {
           <li>microelectronics</li>
           <li>VLSI design</li>
           <li>embedded system</li>
-          {/* <h3 className="text-lg font-semibold">Artificial intelligence and real world application</h3> */}
           <p>I am particularly interested in the application of intelligence techniques in microelectronics for real-world solutions.</p>
           <p>During my undergraduate studies, I took elective courses in AI, neural networks, and real-time systems, which strengthened my passion for intelligent system design. I believe that by combining microelectronic systems with AI methods, we can create smart, adaptive technologies that operate efficiently to address real world problems.</p>
           <p>I hope to contribute to the development of practical, intelligent electronic systems that enhance everyday technologies in fields such as robotics, autonomous vehicles, and IoT devices.</p>
         </div>
-      </div>
+      </div> */}
 
       <div className="flex flex-col gap-3">
         <h1 className="text-2xl font-semibold">Technique Skills</h1>
