@@ -13,7 +13,7 @@ const Sidebar = () => {
             <div className="text-lg font-semibold mb-4 md:pl-28">Yuelin Wen</div>
             <div className='md:pl-28'>
                 <p>he/him</p>
-                Concordia University | Programmer | Network | IT
+                Concordia University | Programmer | Computer | Network | IT
             </div>
 
             <ul className="space-y-2 text-sm md:pl-28">
