@@ -4,7 +4,7 @@ export default function Home() {
     <div className="flex flex-col gap-20">
       <div className="flex flex-col gap-3">
         <h1 className="text-2xl font-semibold">About me</h1>
-        <p>Hi, I'm Yuelin. I'm a software developer based in Toronto, Canada.</p>
+        <p>Hi, I'm Yuelin. I'm a developer based in Montreal QC, Canada.</p>
         <p>I recently graduated from a software engineering program at McMaster University. I am specialized in using modern technologies to build application to solve real-world problems, I enjoy creating things that are simple, useful, and meaningful. I'm always curious to learn new skills, whether it's related to technology or just life in general.
         </p>
         <p>Outside of work, I love music, enjoy reading, exploring nature, and having good conversations with people. I value kindness, growth, and staying open-minded.</p>
@@ -26,7 +26,7 @@ export default function Home() {
             {/* <li>Grading GPA: 3.8/4</li> */}
             <li>Subject studied: C++, Java, Web programming, Cloud programming, Database, Linux System programming, IOS/Android development</li>
             <li>Honors: President Honor list in Fall 2020, Winter 2021, Summer 2021</li>
-            <li>School Activity: Develop health montior app in the 2021 Digital Health Hackathon</li>
+            <li>School Activity: Develop health monitoring app in the 2021 Digital Health Hackathon</li>
           </ul>
         </div>
       </div>

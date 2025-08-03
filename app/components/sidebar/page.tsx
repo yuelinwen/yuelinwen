@@ -13,12 +13,12 @@ const Sidebar = () => {
             <div className="text-lg font-semibold mb-4 md:pl-28">Yuelin Wen</div>
             <div className='md:pl-28'>
                 <p>he/him</p>
-                Software engineering | Network | IT | Computer | McMaster university
+                Concordia University | Programmer | Network | IT
             </div>
 
             <ul className="space-y-2 text-sm md:pl-28">
-                <li>📍 Toronto, ON, Canada</li>
-                <li>🏫 McMaster University</li>
+                <li>📍 Montreal, QC, Canada</li>
+                <li>🏫 Concordia University</li>
                 <li>📧 Email: <a href="mailto:wenyuelinca@gmail.com">wenyuelinca@gmail.com</a></li>
                 <li>🔗 GitHub: <a href="https://github.com/yuelinwen">github.com/yuelinwen</a></li>
             </ul>
