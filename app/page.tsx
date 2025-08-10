@@ -13,6 +13,14 @@ export default function Home() {
       <div className="flex flex-col gap-3">
         <h1 className="text-2xl font-semibold">Education</h1>
         <div>
+          <h3 className="text-lg font-semibold">Concordia University - Montreal, QC, Canada</h3>
+          <p className="italic">Master of Engineering in Electrical and Computer Engineering </p>
+          <ul className="gap-1">
+            <li>In progress</li>
+            {/* <li>Subject studied: Software architecture, AI/ML neural network, Real-time system Mathematics, Data structure & algorithm, Network security, Operating system, Unity game development</li> */}
+          </ul>
+        </div>
+        <div>
           <h3 className="text-lg font-semibold">McMaster University - Hamilton, ON, Canada</h3>
           <p className="italic">Bachelor of Technology in Software Engineering </p>
           <ul className="gap-1">
