@@ -40,6 +40,23 @@ const Page = () => {
                     </li>
                 </ul>
             </div>
+
+            <div className="flex flex-col gap-3">
+                <h3 className="text-lg font-semibold">Meteor shower</h3>
+                <p className="italic">meteor shower - Aug,15,2025</p>
+                <p>First time to have a chance to see meteor shower, full of star~</p>
+                <ul className='flex flex-row gap-1'>
+                    <li>
+                        <Image src={`${prefix}/image/blog/mtl/star1.jpeg`} width={300} height={1} alt="meteor shower" className="rounded-md object-cover" />
+                    </li>
+                    <li>
+                        <Image src={`${prefix}/image/blog/mtl/star2.jpeg`} width={300} height={1} alt="meteor shower" className="rounded-md object-cover" />
+                    </li>
+                    <li>
+                        <Image src={`${prefix}/image/blog/mtl/star3.jpeg`} width={300} height={1} alt="meteor shower" className="rounded-md object-cover" />
+                    </li>
+                </ul>
+            </div>
         </div>
     );
 }
