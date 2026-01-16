@@ -15,7 +15,7 @@ export default function Home() {
           <h3 className="text-lg font-semibold">Concordia University - Montreal, QC, Canada</h3>
           <p className="italic">Master of Engineering in Electrical and Computer Engineering </p>
           <ul className="gap-1">
-            <li>In progress</li>
+            <li>Subject area: Software Engineering, Operating Systems, and Distributed Systems.</li>
             {/* <li>Subject studied: Software architecture, AI/ML neural network, Real-time system Mathematics, Data structure & algorithm, Network security, Operating system, Unity game development</li> */}
           </ul>
         </div>
