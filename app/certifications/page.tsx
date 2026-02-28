@@ -11,7 +11,7 @@ const Certifications = () => {
                 <ul className="gap-1">
                     <li className='flex flex-row'>
                         <AspectRatio ratio={16 / 9}>
-                            <Image src={`${prefix}/image/comptia.png`} width={480} height={1} alt="CloudVaut home page" className="rounded-md object-cover" />
+                            <Image src={`${prefix}/image/comptia.png`} width={480} height={270} alt="CloudVaut home page" className="rounded-md object-cover" />
                         </AspectRatio>
                     </li>
                 </ul>
