@@ -20,12 +20,12 @@ export default function RootLayout({
       <body className="antialiased">
         <Providers>
           <Header />
-          <div className="h-[120px] xl:h-[64px] w-full" />
+          <div className="h-[120px] lg:h-[64px] w-full" />
 
-          <div className="flex flex-col md:flex-row w-full min-h-screen text-muted-foreground">
+          <div className="flex flex-col lg:flex-row w-full min-h-screen text-muted-foreground">
             <Sidebar />
 
-            <main className="flex-1 md:ml-[25%] md:ps-6 md:pe-96 md:py-6 p-6 overflow-y-auto">
+            <main className="flex-1 lg:ml-[25%] lg:ps-6 lg:pe-96 lg:py-6 p-6 overflow-y-auto">
               <div className="space-y-4">{children}</div>
             </main>
           </div>

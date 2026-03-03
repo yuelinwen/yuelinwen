@@ -18,7 +18,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 xl:w-3/4 w-full border-b bg-background/75 backdrop-blur supports-[backdrop-filter]:bg-background/60 text-muted-foreground">
+    <header className="fixed inset-x-0 top-0 z-50 lg:w-3/4 w-full border-b bg-background/75 backdrop-blur supports-[backdrop-filter]:bg-background/60 text-muted-foreground">
       <nav className="container mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
         {/* logo/title */}
         <Link
@@ -29,7 +29,7 @@ export default function Header() {
         </Link>
 
         {/* desktop nav */}
-        <ul className="hidden items-center gap-6 text-lg xl:flex">
+        <ul className="hidden items-center gap-6 text-lg lg:flex">
           {navItems.map((item) => (
             <li
               key={item.name}
@@ -47,7 +47,7 @@ export default function Header() {
           {/* mobile hamburger */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="xl:hidden"
+            className="lg:hidden"
           >
             {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -56,7 +56,7 @@ export default function Header() {
 
       {/* mobile nav dropdown */}
       {mobileMenuOpen && (
-        <div className="xl:hidden border-t border-gray-200 bg-background px-4 pb-4">
+        <div className="lg:hidden border-t border-gray-200 bg-background px-4 pb-4">
           <ul className="flex flex-col gap-4 pt-4 text-lg">
             {navItems.map((item) => (
               <li
