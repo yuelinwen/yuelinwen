@@ -67,6 +67,14 @@ export default function Home() {
       <div className="flex flex-col gap-3">
         <h1 className="text-2xl font-semibold">Experience</h1>
         <div>
+          <h3 className="text-lg font-semibold">Web Integrator - present</h3>
+          <p className="italic">Plusgrade - Montreal, QC, Canada</p>
+          <ul className="gap-1">
+            {/* <li>During my internship at iRestify, a software company based in Toronto, I was responsible for developing an powerBI data analysis platform to visualize operational data and support decision-making for company. I worked primarily with React for the front end and Node.js for building RESTful APIs. This experience strengthened my skills in full-stack web development and team collaboration, as I consistently delivered tasks efficiently and contributed to the overall functionality of the product.</li> */}
+
+          </ul>
+        </div>
+        <div>
           <h3 className="text-lg font-semibold">Full Stack Developer (Internship) - Jan 2022~Apr 2022</h3>
           <p className="italic">iRestify Inc. - Toronto, ON, Canada</p>
           <ul className="gap-1">

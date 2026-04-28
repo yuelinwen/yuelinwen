@@ -52,22 +52,6 @@ const Projects = () => {
                     </li>
                 </ul>
             </div>
-
-            <div className="flex flex-col gap-3">
-                <h3 className="text-lg font-semibold">New York restaurant browser</h3>
-                <p className="italic">Nodejs, EJS, MongoDB, Leafmap API</p>
-                <ul className="gap-1">
-                    <li>Github link: <a className='underline' href="https://github.com/yuelinwen/yep-restaurant-recommender">https://github.com/yuelinwen/yep-restaurant-recommender</a></li>
-                    <li>Demo: <a className='underline' href="https://yep-restaurant-recommender.vercel.app/restaurants?page=1&perPage=10&borough=">Live</a></li>
-                    <li>New York restaurant recommendation application that allows users to browse restaurant ratings, view detailed reviews and locate restaurants on an interactive map.</li>
-                    <li>This simple application is used as my SFWRTECH 4SA3 Software Architecture class project which demostrate the usage of software design pattern and software artitecture applied.</li>
-                    <li className='flex flex-row'>
-                        <AspectRatio ratio={16 / 9}>
-                            <Image src={`${prefix}/image/yep.png`} width={400} height={1} alt="new york restaurant recommendation app front page" className="rounded-md object-cover" />
-                        </AspectRatio>
-                    </li>
-                </ul>
-            </div>
         </div>
     );
 }
