@@ -4,8 +4,8 @@ export default function Home() {
     <div className="flex flex-col gap-20">
       <div className="flex flex-col gap-3">
         <h1 className="text-2xl font-semibold">About me</h1>
-        <p>Hi, I'm Yuelin. I'm a Master of Electrical and Computer Engineering student at Concordia University in Montreal, QC.</p>
-        <p>I recently graduated from the Software Engineering program at McMaster University. I specialize in using modern technologies to build applications that solve real-world problems. I enjoy creating things that are simple, useful, and meaningful. I'm always curious to learn new skills, whether related to technology or just life in general.</p>
+        <p>Hi, I'm Yuelin. I'm a Master of Applied Science (MASc) student in Electrical and Computer Engineering program at Concordia University in Montreal, QC.</p>
+        <p>I specialize in using modern technologies to build applications that solve real-world problems. I enjoy creating things that are simple, useful, and meaningful. I'm always curious to learn new skills, whether related to technology or just life in general.</p>
         <p>Outside of work, I love music, reading, exploring nature, and having good conversations. I value kindness, growth, and staying open-minded.</p>
       </div>
 
