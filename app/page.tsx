@@ -15,7 +15,7 @@ export default function Home() {
           <h3 className="text-lg font-semibold">Concordia University - Montreal, QC, Canada</h3>
           <p className="italic">Master of Applied Science (MASc) in Electrical and Computer Engineering </p>
           <ul className="gap-1">
-            <li>Research area: Distributed Vector Database, Software Engineering, Operating Systems, and Distributed Systems.</li>
+            <li>Research area: Distributed Vector Database</li>
           </ul>
         </div>
         <div>
