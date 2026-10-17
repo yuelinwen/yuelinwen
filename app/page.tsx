@@ -4,7 +4,7 @@ export default function Home() {
     <div className="flex flex-col gap-20">
       <div className="flex flex-col gap-3">
         <h1 className="text-2xl font-semibold">About me</h1>
-        <p>Hi, I'm Yuelin. I'm a Master of Applied Science (MASc) student in Electrical and Computer Engineering program at Concordia University in Montreal, QC.</p>
+        <p>Hi, I'm Yuelin. I'm a Master of Applied Science (MASc) student in the Electrical and Computer Engineering program at Concordia University in Montreal, QC.</p>
         <p>I specialize in using modern technologies to build applications that solve real-world problems. I enjoy creating things that are simple, useful, and meaningful. I'm always curious to learn new skills, whether related to technology or just life in general.</p>
         <p>Outside of work, I love music, reading, exploring nature, and having good conversations. I value kindness, growth, and staying open-minded.</p>
       </div>
@@ -14,25 +14,25 @@ export default function Home() {
         <div>
           <h3 className="text-lg font-semibold">Concordia University - Montreal, QC, Canada</h3>
           <p className="italic">Master of Applied Science (MASc) in Electrical and Computer Engineering </p>
-          <ul className="gap-1">
+          <ul className="flex flex-col gap-1">
             <li>Research area: Distributed Vector Database</li>
           </ul>
         </div>
         <div>
           <h3 className="text-lg font-semibold">McMaster University - Hamilton, ON, Canada</h3>
           <p className="italic">Bachelor of Technology in Software Engineering </p>
-          <ul className="gap-1">
-            <li>Subject studied: Software architecture, AI/ML neural network, Real-time system Mathematics, Data structure & algorithm, Network security, Operating system, Unity game development</li>
+          <ul className="flex flex-col gap-1">
+            <li>Subjects studied: Software architecture, AI/ML neural networks, Real-time systems, Mathematics, Data structures & algorithms, Network security, Operating systems, Unity game development</li>
           </ul>
         </div>
         <div>
           <h3 className="text-lg font-semibold">Seneca College - Toronto, ON, Canada</h3>
           <p className="italic">Advanced Diploma in Computer Programming & Analysis </p>
-          <ul className="gap-1">
+          <ul className="flex flex-col gap-1">
             {/* <li>Grading GPA: 3.8/4</li> */}
-            <li>Subject studied: C++, Java, Web programming, Cloud programming, Database, Linux System programming, IOS/Android development</li>
-            <li>Honors: President Honor list in Fall 2020, Winter 2021, Summer 2021</li>
-            <li>School Activity: Develop health monitoring app in the 2021 Digital Health Hackathon</li>
+            <li>Subjects studied: C++, Java, Web programming, Cloud programming, Databases, Linux system programming, iOS/Android development</li>
+            <li>Honours: President&apos;s Honour List in Fall 2020, Winter 2021, Summer 2021</li>
+            <li>School activity: Developed a health monitoring app in the 2021 Digital Health Hackathon</li>
           </ul>
         </div>
       </div>
@@ -52,8 +52,8 @@ export default function Home() {
       </div> */}
 
       <div className="flex flex-col gap-3">
-        <h1 className="text-2xl font-semibold">Technique Skills</h1>
-        <ul className="gap-1">
+        <h1 className="text-2xl font-semibold">Technical Skills</h1>
+        <ul className="flex flex-col gap-1">
           <li>Programming language: C++, Python, Javascript, Typescript</li>
           <li>Database: SQL, MongoDB</li>
           <li>Cloud computing: CI/CD, AWS, Docker</li>
@@ -68,23 +68,18 @@ export default function Home() {
         <div>
           <h3 className="text-lg font-semibold">Web Integrator - present</h3>
           <p className="italic">Plusgrade - Montreal, QC, Canada</p>
-          <ul className="gap-1">
-            {/* <li>During my internship at iRestify, a software company based in Toronto, I was responsible for developing an powerBI data analysis platform to visualize operational data and support decision-making for company. I worked primarily with React for the front end and Node.js for building RESTful APIs. This experience strengthened my skills in full-stack web development and team collaboration, as I consistently delivered tasks efficiently and contributed to the overall functionality of the product.</li> */}
-
-          </ul>
         </div>
         <div>
           <h3 className="text-lg font-semibold">Full Stack Developer (Internship) - Jan 2022~Apr 2022</h3>
           <p className="italic">iRestify Inc. - Toronto, ON, Canada</p>
-          <ul className="gap-1">
-            <li>During my internship at iRestify, a software company based in Toronto, I was responsible for developing an powerBI data analysis platform to visualize operational data and support decision-making for company. I worked primarily with React for the front end and Node.js for building RESTful APIs. This experience strengthened my skills in full-stack web development and team collaboration, as I consistently delivered tasks efficiently and contributed to the overall functionality of the product.</li>
-
+          <ul className="flex flex-col gap-1">
+            <li>During my internship at iRestify, a software company based in Toronto, I was responsible for developing a Power BI data analysis platform to visualize operational data and support decision-making for company. I worked primarily with React for the front end and Node.js for building RESTful APIs. This experience strengthened my skills in full-stack web development and team collaboration, as I consistently delivered tasks efficiently and contributed to the overall functionality of the product.</li>
           </ul>
         </div>
         <div>
           <h3 className="text-lg font-semibold">Student Mentor (Part-time) - Jan 2021~Aug 2021</h3>
           <p className="italic">Seneca College - Toronto, ON, Canada</p>
-          <ul className="gap-1">
+          <ul className="flex flex-col gap-1">
             <li>As a Student Mentor at Seneca College, I supported new computer programming students by offering C++ academic guidance. I helped them understand technical concepts, shared study strategies, and provided encouragement to ease their transition into the program. This role strengthened my communication skills and deepened my ability to explain complex topics clearly.</li>
           </ul>
         </div>

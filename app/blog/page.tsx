@@ -1,5 +1,4 @@
 import React from 'react';
-import { AspectRatio } from '@radix-ui/react-aspect-ratio';
 import Image from 'next/image';
 import { prefix } from '@/util/prefix';
 
@@ -16,7 +15,7 @@ const Page = () => {
                 <h3 className="text-lg font-semibold">First week in Montreal!</h3>
                 <p className="italic">montreal exploring - Aug,10,2025</p>
                 <p>This is my first week living in Montreal. Although the past week was exhausting because of moving, I have finally arrived and started exploring the city.</p>
-                <p>When I got here, there happened to be a comic expo. As a huge fan of Genshin Impact, I enjoyed attending the expo. Afterward, me and my friend visited the Old Port, China town and a charming European-style street, which had a very relaxing and pleasant atmosphere.</p>
+                <p>When I got here, there happened to be a comic expo. As a huge fan of Genshin Impact, I enjoyed attending the expo. Afterward, my friend and I visited the Old Port, China town and a charming European-style street, which had a very relaxing and pleasant atmosphere.</p>
                 <ul className='flex flex-row gap-1'>
                     <li>
                         <Image src={`${prefix}/image/blog/mtl/ghishen.jpg`} width={300} height={1} alt="expo-card" className="rounded-md object-cover" />

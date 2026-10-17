@@ -1,20 +1,14 @@
-/**
- * @type {import('next').NextConfig}
- */
-const nextConfig = {
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  // Static HTML export: `next build` writes the site to `out/`, which is what
+  // .github/workflows/nextjs.yml uploads to GitHub Pages.
   output: "export",
 
-  // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
-  // trailingSlash: true,
-
-  // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
-  // skipTrailingSlashRedirect: true,
-
-  // Optional: Change the output directory `out` -> `dist`
-  distDir: "dist",
-  images:{
-    unoptimized:true
-  }
+  // GitHub Pages serves no image optimizer, so next/image must stay unoptimized.
+  images: {
+    unoptimized: true,
+  },
 };
 
-module.exports = nextConfig;
+export default nextConfig;

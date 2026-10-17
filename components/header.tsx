@@ -18,59 +18,65 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 lg:w-3/4 w-full border-b bg-background/75 backdrop-blur supports-[backdrop-filter]:bg-background/60 text-muted-foreground">
-      <nav className="container mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
-        {/* logo/title */}
-        <Link
-          href="/"
-          className="text-lg font-bold border-b-2 border-transparent hover:border-gray-300"
-        >
-          Yuelin Wen
-        </Link>
-
-        {/* desktop nav */}
-        <ul className="hidden items-center gap-6 text-lg lg:flex">
-          {navItems.map((item) => (
-            <li
-              key={item.name}
-              className="transition-colors border-b-2 border-transparent hover:border-gray-300 text-"
-            >
-              <Link href={item.href}>{item.name}</Link>
-            </li>
-          ))}
-        </ul>
-
-        {/* right controls */}
-        <div className="flex items-center gap-4">
-          <ThemeToggle />
-
-          {/* mobile hamburger */}
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden"
+    <header className="fixed inset-x-0 top-0 z-50 w-full border-b bg-background/75 backdrop-blur supports-[backdrop-filter]:bg-background/60 text-muted-foreground">
+      {/* The bar spans the viewport so content never scrolls past its edge,
+          while its contents stay inside the original 3/4 column. */}
+      <div className="lg:w-3/4">
+        <nav className="container mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
+          {/* logo/title */}
+          <Link
+            href="/"
+            className="text-lg font-bold border-b-2 border-transparent hover:border-gray-300"
           >
-            {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
-        </div>
-      </nav>
+            Yuelin Wen
+          </Link>
 
-      {/* mobile nav dropdown */}
-      {mobileMenuOpen && (
-        <div className="lg:hidden border-t border-gray-200 bg-background px-4 pb-4">
-          <ul className="flex flex-col gap-4 pt-4 text-lg">
+          {/* desktop nav */}
+          <ul className="hidden items-center gap-6 text-lg lg:flex">
             {navItems.map((item) => (
               <li
                 key={item.name}
-                className="transition-colors border-b border-transparent hover:border-gray-300"
+                className="transition-colors border-b-2 border-transparent hover:border-gray-300"
               >
-                <Link href={item.href} onClick={() => setMobileMenuOpen(false)}>
-                  {item.name}
-                </Link>
+                <Link href={item.href}>{item.name}</Link>
               </li>
             ))}
           </ul>
-        </div>
-      )}
+
+          {/* right controls */}
+          <div className="flex items-center gap-4">
+            <ThemeToggle />
+
+            {/* mobile hamburger */}
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="lg:hidden"
+              aria-label="Toggle navigation menu"
+              aria-expanded={mobileMenuOpen}
+            >
+              {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
+        </nav>
+
+        {/* mobile nav dropdown */}
+        {mobileMenuOpen && (
+          <div className="lg:hidden border-t border-gray-200 bg-background px-4 pb-4">
+            <ul className="flex flex-col gap-4 pt-4 text-lg">
+              {navItems.map((item) => (
+                <li
+                  key={item.name}
+                  className="transition-colors border-b border-transparent hover:border-gray-300"
+                >
+                  <Link href={item.href} onClick={() => setMobileMenuOpen(false)}>
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
     </header>
   );
 }

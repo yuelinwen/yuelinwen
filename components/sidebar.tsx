@@ -25,7 +25,7 @@ const Sidebar = () => {
                 <li>📍 Montreal, QC, Canada</li>
                 <li>🏫 Concordia University</li>
                 <li>📧 Email: <a href="mailto:wenyuelinca@gmail.com">wenyuelinca@gmail.com</a></li>
-                <li>🔗 GitHub: <a href="https://github.com/yuelinwen">github.com/yuelinwen</a></li>
+                <li>🔗 GitHub: <a href="https://github.com/yuelinwen" target="_blank" rel="noopener noreferrer">github.com/yuelinwen</a></li>
             </ul>
         </aside>
     );
