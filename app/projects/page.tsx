@@ -7,12 +7,12 @@ const Projects = () => {
     return (
         <div className="flex flex-col gap-20">
             <div className="flex flex-col gap-3">
-                <h3 className="text-lg font-semibold">CloudVault </h3>
+                <h3 className="text-lg font-semibold">CloudVault</h3>
                 <p className="italic">Nodejs, Reactjs, AWS S3, AWS DynamoDB, AWS Cognito</p>
                 <ul className="flex flex-col gap-1">
                     <li>GitHub link: <a className='underline' target="_blank" rel="noopener noreferrer" href="https://github.com/yuelinwen/CloudVault">https://github.com/yuelinwen/CloudVault</a></li>
                     <li>Demo: <a className='underline' target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=9ruAMwIYXI0">Video</a></li>
-                    <li>CloudVault is a cloud-based file storage software that allows users to store and access various types of files from any device. Hosted on AWS infrastructure, it offers a seamless and secure file management system. CloudVault incorporates encryption, secure authentication, and access control mechanisms to protect user data. With a focus on convenience, security and sustainability, CloudVault software offers a modern and efficient cloud storage solution for users.</li>
+                    <li>CloudVault is a cloud-based file storage application that lets users store and access files of any type from any device. Hosted on AWS, it combines encryption, secure authentication, and access control to protect user data, giving users a straightforward and secure way to manage their files in the cloud.</li>
                     <li className='flex flex-col gap-3 sm:flex-row'>
                         <div className='w-full sm:w-1/2'>
                             <AspectRatio ratio={16 / 9}>
@@ -33,7 +33,7 @@ const Projects = () => {
                 <p className="italic">AI, Image recognition, CNN, MLP, Neural Network</p>
                 <ul className="flex flex-col gap-1">
                     <li>GitHub link: <a className='underline' target="_blank" rel="noopener noreferrer" href="https://github.com/yuelinwen/facial-expression-recognition">https://github.com/yuelinwen/facial-expression-recognition</a></li>
-                    <li>Facial expression recognition is a type of image detection system used to analyze human emotions by classifying facial expressions through learning in deep neural networks. This system uses Convolutional Neural Networks (CNNs) to train the model using pre-collected facial image datasets, leveraging deep learning to extract facial features and accurately identify human expressions.</li>
+                    <li>Facial expression recognition is an image classification system that analyzes human emotions from photographs of faces. It trains a Convolutional Neural Network (CNN) on a pre-collected facial image dataset to extract facial features and classify expressions.</li>
                     <li className='flex flex-row'>
                         <div className='w-full sm:w-1/2'>
                             <AspectRatio ratio={16 / 9}>
@@ -50,7 +50,7 @@ const Projects = () => {
                 <ul className="flex flex-col gap-1">
                     <li>GitHub link: <a className='underline' target="_blank" rel="noopener noreferrer" href="https://github.com/yuelinwen/spotify-music-app">https://github.com/yuelinwen/spotify-music-app</a></li>
                     <li>Demo: <a className='underline' target="_blank" rel="noopener noreferrer" href="https://spotify-music-app-ten.vercel.app/">Live</a></li>
-                    <li>Spotify music app is a music listening web application using Angular for the front end and Node.js for the backend. The app fetches real-time music data from the official Spotify API and stores user-related information in MongoDB. This project allowed me to integrate third-party APIs, manage asynchronous data flow, and build a responsive user interface for a seamless music browsing experience.</li>
+                    <li>The Spotify music app is a music listening web application built with Angular on the front end and Node.js on the back end. It fetches real-time music data from the official Spotify API and stores user information in MongoDB. The project gave me practice integrating third-party APIs, managing asynchronous data flow, and building a responsive interface for a smooth music browsing experience.</li>
                     <li className='flex flex-row'>
                         <div className='w-full sm:w-1/2'>
                             <AspectRatio ratio={16 / 9}>

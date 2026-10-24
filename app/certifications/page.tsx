@@ -7,7 +7,7 @@ const Certifications = () => {
     return (
         <div className="flex flex-col gap-20">
             <div className="flex flex-col gap-3">
-                <h3 className="text-lg font-semibold">Comptia Network+ </h3>
+                <h3 className="text-lg font-semibold">CompTIA Network+</h3>
                 <ul className="flex flex-col gap-1">
                     <li className='flex flex-row'>
                         <div className='w-full sm:w-1/2'>
